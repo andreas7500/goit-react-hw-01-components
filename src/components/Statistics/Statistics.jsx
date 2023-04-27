@@ -16,7 +16,6 @@ export const Statistics = ({ title, stats }) => (
     </ul>
   </section>
 );
-
 Statistics.propTypes = {
   title: PropTypes.string.isRequired,
   stats: PropTypes.arrayOf(
